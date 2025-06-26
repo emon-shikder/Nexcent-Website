@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0 100px;
+  background-color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-button {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.menu ul a li {
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+  list-style: none;
+}
+
+.menu ul li:hover {
+  color: #28cb8b;
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero {
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 850px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  color: white;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.hero-text h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.hero-highlights {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.hero-highlights li {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: #dfffe7;
+}
+
+.button-hero button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #28CB8B;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-hero button:hover {
+  background-color: #1ca572;
+}
+
+
+.button button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button button {
+  background-color: #28cb8b;
+}
+
+.button button:hover {
+  background-color: #219a6d;
+}
+
+
+
+
+.member-details {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.card .title {
+  color: grey;
+  font-size: 14px;
+}
+
+.card button {
+  width: 100%;
+  background-color: #000;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.card button:hover {
+  opacity: 0.8;
+}
+
+.about {
+  padding: 80px 20px;
+  background-color: #e1ffe773;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.about-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.highlight-box {
+  flex: 1 1 300px;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.highlight-box h3 {
+  font-size: 1.3rem;
+  color: #28CB8B;
+  margin-bottom: 10px;
+}
+
+.highlight-box p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.contact-section {
+  padding: 80px 20px;
+  background-color: #e9fdf4;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact-container h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.contact-container p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.contact-form button {
+  background-color: #28CB8B;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #219a6d;
+}
+
+input:invalid, textarea:invalid {
+  border: 1px solid red;
+}
+
+input:valid, textarea:valid {
+  border: 1px solid #28CB8B;
+}
