@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  padding: 0 100px;
+}
+
+.blog {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-button {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.menu ul a li {
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+  list-style: none;
+}
+
+.menu ul li:hover {
+  color: #28cb8b;
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.button-hero button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #28CB8B;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-hero button:hover {
+  background-color: #1ca572;
+}
+
+
+.button button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button button {
+  background-color: #28cb8b;
+}
+
+.button button:hover {
+  background-color: #219a6d;
+}
+
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+
+
+
+.left-div, .right-div {
+  background-color: rgb(123, 199, 142);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+.left-div h3, .right-div h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.left-div ul, .right-div ul {
+  list-style: none;
+  padding: 0;
+}
+
+.left-div ul li, .right-div ul li {
+  margin-bottom: 8px;
+}
+
+.left-div a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+}
+
+.left-div a:hover {
+  color: #007BFF;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Feed */
+.middle-div {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
